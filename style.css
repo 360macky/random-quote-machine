@@ -35,6 +35,11 @@ body {
   color: #fff;
 }
 
+button {
+    color: white;
+    padding: 15px;
+}
+
 #quote-box {
     border-radius: 3px;
     position: relative;
@@ -42,7 +47,7 @@ body {
     width: 450px;
     padding: 40px 50px;
     display: table;
-    background-color: transparent;
+    background-color: white;
     border: 1px solid white;
 }
 

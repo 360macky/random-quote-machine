@@ -39,10 +39,16 @@ let btnClick=(e)=> {
         const btn = document.getElementById('new-quote');
 
         // change the background with JS
+    
         let colorIndex = generateIndexNumberForBackground();
         body.style.backgroundColor = colors[colorIndex];
         btn.style.backgroundColor = colors[colorIndex];
+
         // new-quote
+
+        // chichiglacierz
+
+        // https://360macky.github.io/rqm/style.css
 
         // https://360macky.github.io/rqm/index.js
         // Press CTRL+R <- Refresh the changes

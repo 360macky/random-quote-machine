@@ -1,10 +1,8 @@
 
 
-// text.innerHTML = 'New Quote';
-
 // 102 <- Generate a number from 0 to 102
 
-
+// generates random colors from this array
 let colors = [
     '#16a085',
     '#27ae60',
@@ -22,9 +20,12 @@ let colors = [
 
 const tweetquote = document.getElementById('new-quote');
 
+//when the twitter icon is pressed, user is routed to their page and is shown the random quote
 function updateLinkTweet(text) {
-
-    let link = `https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=${text}`;
+    
+    
+    
+    let link = `https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=${encodeURIComponent(text)}`;
 
     console.log(link);
 
@@ -62,24 +63,20 @@ let btnClick=(e)=> {
         text.style.color = colors[colorIndex];
     
         // Change the href attribute from the <a> twitter button.
-        updateLinkTweet(text);
         
-
-
-
-    
-
         // chichiglacierz
-
+        
         // https://360macky.github.io/rqm/style.css
-
+        
         // https://360macky.github.io/rqm/index.js
         // Press CTRL+R <- Refresh the changes
-
+        
         let randomNumber = generateRandomNumber();
-
+        
         text.innerText = allInfo[randomNumber].quote;
         author.innerText = allInfo[randomNumber].author;
+        updateLinkTweet(allInfo[randomNumber].quote);
+
         // extract the quote, put the quote in the #text paragraph
     });
     // generateRandomNumber();

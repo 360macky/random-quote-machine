@@ -36,9 +36,16 @@ let btnClick=(e)=> {
         const text = document.getElementById('text');
         const author = document.getElementById('author');
         const body = document.getElementById('body');
+        const btn = document.getElementById('new-quote');
 
         // change the background with JS
-        body.style.backgroundColor = colors[generateIndexNumberForBackground()];
+        let colorIndex = generateIndexNumberForBackground();
+        body.style.backgroundColor = colors[colorIndex];
+        btn.style.backgroundColor = colors[colorIndex];
+        // new-quote
+
+        // https://360macky.github.io/rqm/index.js
+        // Press CTRL+R <- Refresh the changes
 
         let randomNumber = generateRandomNumber();
 

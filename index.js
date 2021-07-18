@@ -1,4 +1,6 @@
-
+window.onload = () => {
+    document.querySelector('#new-quote').click();
+}
 
 // 102 <- Generate a number from 0 to 102
 

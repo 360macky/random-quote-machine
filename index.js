@@ -18,16 +18,15 @@ let colors = [
     '#73A857'
 ];
 
-const tweetquote = document.getElementById('new-quote');
+const tweetquote = document.getElementById('tweet-quote');
 
 //when the twitter icon is pressed, user is routed to their page and is shown the random quote
 function updateLinkTweet(text) {
     
     
-    
     let link = `https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=${encodeURIComponent(text)}`;
 
-    console.log(link);
+    tweetquote.href = link;
 
     // https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=%22Two%20roads%20diverged%20in%20a%20wood%2C%20and%20I%E2%80%94I%20took%20the%20one%20less%20traveled%20by%2C%20And%20that%20has%20made%20all%20the%20difference.%22%20Robert%20Frost
     

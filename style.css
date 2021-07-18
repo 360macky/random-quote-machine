@@ -39,10 +39,6 @@ body {
     margin-bottom: 5px;
 }
 
-#text {
-    font-size: 1.4rem;
-}
-
 #author {
     font-size: 1.1rem;
 }
@@ -61,19 +57,24 @@ button {
 
 .tweet-button, .tumblr-button {
     color: white;
+   
 }
 
 #quote-box {
     border-radius: 3px;
     position: relative;
-    margin:8% auto auto auto;
+    text-align: center;
+    margin: auto;
     width: 450px;
-    padding: 40px 50px;
+    padding: 60px 50px;
     display: table;
     background-color: white;
     border: 1px solid white;
 }
-
+#text{
+  margin-top: 10px;
+  font-size: 1.7rem;
+}
 #btn-container {
   display: flex;
   justify-content: flex-start;

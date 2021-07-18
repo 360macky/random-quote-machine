@@ -38,7 +38,7 @@ let btnClick=(e)=> {
         const body = document.getElementById('body');
 
         // change the background with JS
-        body.style.backgroundColor = colors[generateRandomNumber()];
+        body.style.backgroundColor = colors[generateIndexNumberForBackground()];
 
         let randomNumber = generateRandomNumber();
 

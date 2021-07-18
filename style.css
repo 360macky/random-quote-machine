@@ -34,13 +34,22 @@ body {
   text-decoration: none;
   color: #fff;
 }
-
-#text, #author {
-    margin-bottom: 5px;
+#author-box {
+  display: flex;
+}
+#author-box > #author {
+  margin-left: auto;
+}
+#text {
+    margin-top: -18px;
+    margin-bottom: 12px;
+    font-size: 1.7rem;
 }
 
 #author {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    margin-left: auto;
+    margin-bottom: 12px;
 }
 
 button {
@@ -54,9 +63,16 @@ button {
     cursor: pointer;
     margin-top: 5px;
 }
+.tweet-button {
+  padding: 12px;
+}
 
 .tweet-button, .tumblr-button {
     color: white;
+    height: 44px;
+    padding-top: 8px;
+    padding-bottom: 6px;
+    font-size: larger;
    
 }
 
@@ -71,13 +87,11 @@ button {
     background-color: white;
     border: 1px solid white;
 }
-#text{
-  margin-top: 10px;
-  font-size: 1.7rem;
-}
+
 #btn-container {
   display: flex;
   justify-content: flex-start;
+  margin-bottom: -20px;
 }
 #btn-container #new-quote {
   margin-left: auto;

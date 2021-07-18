@@ -66,14 +66,15 @@ button {
 .tweet-button {
   padding: 12px;
 }
+.tumblr-button {
+  padding-bottom:11px;
+}
 
 .tweet-button, .tumblr-button {
     color: white;
     height: 44px;
     padding-top: 8px;
-    padding-bottom: 6px;
     font-size: larger;
-   
 }
 
 #quote-box {
@@ -92,7 +93,14 @@ button {
   display: flex;
   justify-content: flex-start;
   margin-bottom: -20px;
+  margin-top: 10px;
 }
 #btn-container #new-quote {
   margin-left: auto;
+}
+
+#new-quote {
+  padding-top: 0px;
+  padding-bottom: 0;
+  font-size: small;
 }

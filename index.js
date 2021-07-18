@@ -64,6 +64,7 @@ let btnClick=(e)=> {
         btnTweet.style.backgroundColor = colors[colorIndex];
         btnTumblr.style.backgroundColor = colors[colorIndex];
         btn.style.backgroundColor = colors[colorIndex];
+        author.style.color= colors[colorIndex];
         text.style.color = colors[colorIndex];
     
         // Change the href attribute from the <a> twitter button.

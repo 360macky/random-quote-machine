@@ -77,7 +77,7 @@ let btnClick=(e)=> {
         
         let randomNumber = generateRandomNumber();
         
-        text.innerText = allInfo[randomNumber].quote;
+        text.innerHTML = '<i class="fa fa-quote-left"> </i>&nbsp;' + allInfo[randomNumber].quote;
         author.innerText = allInfo[randomNumber].author;
         updateLinkTweet(allInfo[randomNumber].quote);
         updateTumblerLink(allInfo[randomNumber].author, allInfo[randomNumber].quote);

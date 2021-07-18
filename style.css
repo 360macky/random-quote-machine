@@ -41,6 +41,9 @@ button {
     border-radius: 3px;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
+    margin-left: 5px;
+    border: 0;
+    cursor: pointer;
 }
 
 .tweet-button, .tumblr-button {

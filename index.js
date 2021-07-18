@@ -53,16 +53,14 @@ let btnClick=(e)=> {
         const body = document.getElementById('body');
         const btn = document.getElementById('new-quote');
         const btnTweet = document.getElementById('tweet-button');
-
-
-
-        
+        const btnTumblr = document.getElementById('tumblr-button');
 
         // change the background with JS
     
         let colorIndex = generateIndexNumberForBackground();
         body.style.backgroundColor = colors[colorIndex];
         btnTweet.style.backgroundColor = colors[colorIndex];
+        btnTumblr.style.backgroundColor = colors[colorIndex];
         btn.style.backgroundColor = colors[colorIndex];
         text.style.color = colors[colorIndex];
     

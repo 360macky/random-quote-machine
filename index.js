@@ -37,14 +37,16 @@ let btnClick=(e)=> {
         const author = document.getElementById('author');
         const body = document.getElementById('body');
         const btn = document.getElementById('new-quote');
+        
 
         // change the background with JS
     
         let colorIndex = generateIndexNumberForBackground();
         body.style.backgroundColor = colors[colorIndex];
         btn.style.backgroundColor = colors[colorIndex];
+        text.style.color = colors[colorIndex];
 
-        // new-quote
+    
 
         // chichiglacierz
 

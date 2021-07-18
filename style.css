@@ -38,6 +38,7 @@ body {
 button {
     color: white;
     padding: 15px;
+    border-radius: 3px;
 }
 
 #quote-box {

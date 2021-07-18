@@ -43,6 +43,10 @@ button {
     font-size: 1rem;
 }
 
+.tweet-button {
+    color: white;
+}
+
 #quote-box {
     border-radius: 3px;
     position: relative;

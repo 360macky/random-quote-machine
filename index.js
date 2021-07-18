@@ -49,6 +49,7 @@ let btnClick=(e)=> {
         const author = document.getElementById('author');
         const body = document.getElementById('body');
         const btn = document.getElementById('new-quote');
+        const btnTweet = document.getElementById('tweet-button');
 
 
 
@@ -58,6 +59,7 @@ let btnClick=(e)=> {
     
         let colorIndex = generateIndexNumberForBackground();
         body.style.backgroundColor = colors[colorIndex];
+        btnTweet.style.backgroundColor = colors[colorIndex];
         btn.style.backgroundColor = colors[colorIndex];
         text.style.color = colors[colorIndex];
     

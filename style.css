@@ -74,4 +74,10 @@ button {
     border: 1px solid white;
 }
 
-  
+#btn-container {
+  display: flex;
+  justify-content: flex-start;
+}
+#btn-container #new-quote {
+  margin-left: auto;
+}
